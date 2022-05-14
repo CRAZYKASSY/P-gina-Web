@@ -1,0 +1,63 @@
+h1 { color:rgb(194, 90, 255) ;
+padding-left: 100px;}
+
+
+.encabezado {
+    background-color: rgb(254, 196, 255);
+    display: flex; 
+    justify-content: center;
+}
+
+.encabezado a {
+  margin-left: 20px;
+}
+.links {
+    display: flex;
+    align-items: flex-end;
+}
+
+.cuadricula {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.juegos p  {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    opacity: 0;
+}
+
+.juegos {
+    position: relative;
+
+}
+
+.social {
+   display: flex;
+   justify-content: flex-end;
+}
+
+a:link {
+ color: rgb(255, 255, 255)
+}
+
+a:visited {
+    color:rgb(116, 61, 255) 
+}
+
+.juegos:hover p{
+    opacity: 1;
+    color: rgba(27, 100, 94, 0.587)
+}
+
+
+img:hover{
+    opacity: 0.5;
+}
+
+img {
+    opacity: 1;
+}
+
